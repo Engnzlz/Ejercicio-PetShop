@@ -1,0 +1,84 @@
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: #F0A83E;
+    display:flex;
+    justify-content: space-between;
+}
+header img{
+    width: 180px;
+    margin: 20px 10px 20px 30px;
+    display: flex
+}
+nav{
+    float: ;
+    margin: 20px 10px 20px 10px;
+    display: flex;
+}
+nav :hover{
+    color: #3C2313;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+nav i{
+    margin: 3px;
+}
+.banner{
+    background-image: url(img/Plato\ Comida.png);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    text-align: right;
+    margin: 0 auto;
+    height: 300px;
+}
+.placer{
+    border: solid white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    display:inline-flex;
+    margin: 70px 20px 30px;
+}
+.TextBaner{
+    margin: 0px 80px;
+}
+.comederos{
+    border: #F0A83E;
+    border-radius: 10px;
+    margin: 30px 120px;
+    background-color: #F0A83E;
+    color: white;
+    padding: 10px;
+}
+.comederos :hover{
+    color: #3C2313;
+}
+.destacados{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.pata{
+    color: #F0A83E;
+    font-size: 40px;
+}
+.nav2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nav2 a{
+    text-decoration: none;
+    color: #666666;
+}
+.productos{
+    display:flex;
+    align-items: center;
+}
+.productos img{
+    width: 250px;
+    margin: 0 auto;
+}
