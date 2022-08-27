@@ -1,8 +1,6 @@
-
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -11,16 +9,44 @@ header{
     background-color: #F0A83E;
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 header img{
     width: 180px;
     margin: 20px 10px 20px 30px;
     display: flex
 }
+.logohead{
+    justify-content: flex-start;
+    width: 6rem;
+    font-size: 20px;
+    display: flex ;
+}
+.logohead h3{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.logohead img{
+    display: flex;
+    width: 40px;
+}
+.fronthead{
+    display: inline-flex;
+    color:#3C2313;
+    font-family: 'Roboto', sans-serif;
+}
+.cathead{
+    color:white;
+    display: inline-flex;
+    font-family: 'Roboto', sans-serif;
+}
 nav{
     float: ;
     margin: 20px 10px 20px 10px;
     display: flex;
+    flex-wrap: wrap;
 }
 nav :hover{
     color: #3C2313;
@@ -83,8 +109,10 @@ nav i{
 .productos{
     justify-content: center;
     display:flex;
+    flex-wrap: wrap;
     text-align: center;
     font-weight: bold;
+    gap: 2rem;
 }
 .orange{
     color: #F0A83E;
@@ -116,6 +144,7 @@ h4{
     margin-top: 20px;
     margin-bottom: 5px;
     font-size: 10px;
+    font-weight: 100;
     text-align: left;
 }
 .botones{
@@ -132,6 +161,7 @@ h4{
     border-radius: 10px;
     padding: 10px;
     color: white;
+    width:50rem ;
 }
 .send{
     display: inline-block;
@@ -139,12 +169,13 @@ h4{
     border-radius: 10px;
     padding: 10px;
     color: white;
+    width: 50rem;
 }
 .sub{
     position: relative;
     font-size: 15px;
     width: 100%;
-    display: block;
+    display: flex block;
     color: white;
     background-color: #F0A83E;
     padding: 20px;
@@ -180,18 +211,18 @@ h5{
     background-color: #3C2313;
     display: block;
     position: relative;
+    font-family: 'Roboto', sans-serif;
 
 }
 .info{
-    display:block;
+    display:flex block;
     font-size: 30px;
 }
 .icon{
     display: inline-block;
     color: white;
     font-size: 50px;
-    margin: 7px;
-    padding: 10px;
+    margin: 15px;
 }
 .infofull{
     display: inline-block;
@@ -210,23 +241,22 @@ h5{
 }
 .logo{
     font-size: 20px;
-    display: block;
+    display: inline block;
     position: absolute;
     top: 50%;
-    right: 70px;
+    right: 10px;
 }
 .logo img{
     display: inline-block;
     width: 30px;
 }
-.logo h3{
-    display: inline-block;
-}
 .front{
     display: inline-block;
-    color: white;font-family:
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 .cat{
     color: #F0A83E;
     display: inline-block;
+    font-family: 'Roboto', sans-serif;
 }
