@@ -35,15 +35,12 @@ header img{
 .fronthead{
     display: inline-flex;
     color:#3C2313;
-    font-family: 'Roboto', sans-serif;
 }
 .cathead{
     color:white;
     display: inline-flex;
-    font-family: 'Roboto', sans-serif;
 }
 nav{
-    float: ;
     margin: 20px 10px 20px 10px;
     display: flex;
     flex-wrap: wrap;
@@ -59,6 +56,33 @@ nav a{
 nav i{
     margin: 3px;
 }
+.hamb{
+    color: white;
+    font-size: 25px;
+    display:none
+}
+@media(max-width:769px){
+    header{
+        width: 100%;
+        position: relative;
+        display:inline-block;
+        justify-content: center;
+    }
+    .logohead{
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+    }
+    nav{
+        flex-wrap: wrap;
+        display: none;
+    }
+    }
+    .hamb{
+        display: flex;
+        position: relative;
+
+    }
 .banner{
     background-image: url(img/Plato\ Comida.png);
     background-size:cover; 
@@ -89,6 +113,13 @@ nav i{
 .comederos :hover{
     color: #3C2313;
 }
+@media(max-width:769px){
+    .banner{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    }
+}
 .destacados{
     text-align: center;
     font-size: 35px;
@@ -114,6 +145,11 @@ nav i{
     font-weight: bold;
     gap: 2rem;
 }
+@media(max-width:769px){
+    .productos{
+    display: block;
+    justify-content: center;}
+}
 .orange{
     color: #F0A83E;
     font-weight: bold;
@@ -128,7 +164,7 @@ nav i{
     text-align: center;
     font-size: 20px;
     margin-top: 20px;
-    margin bottom: ;: 40px;
+    margin-bottom:40px;
 }
 .cajaname{
     position: relative;
@@ -149,7 +185,7 @@ h4{
 }
 .botones{
     display: flex;
-    width: 30%;
+    width: 300px;
     text-align: center;
     margin: 0% auto;
     gap: 30px;
@@ -173,17 +209,24 @@ h4{
 }
 .sub{
     position: relative;
-    font-size: 15px;
+    font-size: 1rem;
     width: 100%;
     display: flex block;
     color: white;
     background-color: #F0A83E;
     padding: 20px;
     margin-top: 30px;
+    text-align: left;
 }
+
 h3{
-    display:inline-block;
-    margin-left: 8px;
+    display:inline-flex;
+    padding-left: 10px;
+}
+.iconmsn{
+    font-size: 1.8rem;
+    display: inline-flex;
+    align-items: center;
 }
 .correo{
     display: inline-block;
@@ -206,16 +249,47 @@ h5{
     padding: 10px;
     border-radius: 15px;
 }
+    @media(max-width:769px){
+        .sub{
+        text-align: center;
+        display: block;
+        }
+        
+        h3{
+        display: block;
+        position: relative;
+        margin-bottom: 30px;
+
+        }
+        .iconmsn{
+        display: block;
+
+        }
+        .correo{
+        display: inline-flex;
+        position: relative;
+        width: 70%;
+        justify-content: space-around;
+        }
+        h5{
+            position: relative;
+            display: block;
+            text-align: justify;
+            
+        }
+        .Subboton{
+            display: block;
+            width:70;
+        }
+}
 .info1{
     width: 100%;
     background-color: #3C2313;
     display: block;
     position: relative;
-    font-family: 'Roboto', sans-serif;
-
 }
 .info{
-    display:flex block;
+    display:inline block;
     font-size: 30px;
 }
 .icon{
@@ -254,9 +328,37 @@ h5{
     display: inline-block;
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
 }
 .cat{
     color: #F0A83E;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
+    font-size: 2rem
+}
+    @media(max-width:769px){
+        .info1{
+            text-align: center;
+            display: block;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            position: absolute;
+        }
+        .info{
+            display: block;
+        }
+        .logo{
+            flex-direction: column;
+            display:inline-block;
+            width: 100%;
+            position: relative;
+        }
+        .logo img{
+            display:;
+            position: relative;
+        }
+        .logo h3{
+            position: relative;
+            display: inline-block;
+        }
 }
